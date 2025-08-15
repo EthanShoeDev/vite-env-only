@@ -16,6 +16,7 @@ describe("macros", () => {
     outDir: string
   }): vite.InlineConfig => ({
     root,
+    logLevel: "silent",
     build: {
       ssr,
       minify: false,
