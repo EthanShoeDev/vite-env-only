@@ -1,6 +1,6 @@
 {
   "name": "vite-env-only",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Vite plugins for isolating server-only and client-only code",
   "keywords": [
     "vite-plugin",
@@ -18,12 +18,10 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./macros": {
-      "types": "./dist/macros.d.ts",
       "import": "./dist/macros.js",
       "require": "./dist/macros.cjs"
     },
