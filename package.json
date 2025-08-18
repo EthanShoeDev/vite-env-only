@@ -31,8 +31,7 @@
     "typecheck": "tsc",
     "build": "tsup",
     "test": "vitest",
-    "changeset": "changeset",
-    "prepare": "pnpm build"
+    "changeset": "changeset"
   },
   "packageManager": "pnpm@9.1.1",
   "peerDependencies": {
