@@ -32,7 +32,7 @@
     "build": "tsup",
     "test": "vitest",
     "changeset": "changeset",
-    "prepare": "node -e \"console.log(require('tsup/package.json').version)\" && node -e \"console.log(require('typescript/package.json').version)\" &&pnpm build"
+    "prepare": "pnpm build"
   },
   "packageManager": "pnpm@9.1.1",
   "peerDependencies": {
